@@ -8,7 +8,7 @@ connectDB();
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5002;
 
 app.get("/", (req, res) =>
   res.json({ msg: "Welcome to the contact keeper api" })
